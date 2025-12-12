@@ -61,18 +61,18 @@ export const THEMES: Record<string, ThemeConfig> = {
 };
 
 export const BRAND_NAMES = [
-  'SHIRIN.STUDIO',
-  'GLEB SHIRIN LABS',
-  'GS / DIGITAL FUTURES',
-  'SHIRIN CREATIONS',
+  "SHIRIN.STUDIO",
+  "GLEB SHIRIN LABS",
+  "GS / DIGITAL FUTURES",
+  "SHIRIN CREATIONS"
 ];
 
 export const CONTACT_INFO = {
-  email: 'glebshirin@gmail.com',
-  telegram: 'https://t.me/X666X777X999',
-  telegramHandle: 'X666X777X999',
-  linkedin: 'https://www.linkedin.com/in/shiringleb/',
-  twitter: 'https://x.com/GlebShirin777',
+  email: "glebshirin@gmail.com",
+  telegram: "https://t.me/X666X777X999",
+  telegramHandle: "X666X777X999",
+  linkedin: "https://www.linkedin.com/in/shiringleb/",
+  twitter: "https://x.com/GlebShirin777"
 };
 
 export const PROJECTS: Project[] = [
@@ -84,7 +84,7 @@ export const PROJECTS: Project[] = [
     status: 'In Development / Active Build Phase',
     vision: 'Revolutionizing last-mile delivery through a synchronized autonomous ecosystem.',
     fullDescription: 'VALA integrates autonomous ground vehicles and drones into a unified logistics network. By gamifying the courier experience, it creates a hybrid workforce that bridges the gap between current infrastructure and fully autonomous futures.',
-    timeline: 'Public Release — Q4 2025',
+    timeline: 'Public Release — Q4 2025'
   },
   {
     id: 'sevenoir',
@@ -94,7 +94,7 @@ export const PROJECTS: Project[] = [
     status: 'Ecosystem Expansion',
     vision: 'A tangible blockchain layer for high-value asset verification.',
     fullDescription: 'Built on a dedicated Proof-of-Stake chain, SEVENOIR utilizes smart physical tags to create unforgeable digital twins for luxury goods, ensuring authenticity and provenance on-chain.',
-    timeline: 'Chain Launch — H1 2026',
+    timeline: 'Chain Launch — H1 2026'
   },
   {
     id: 'nvg',
@@ -104,7 +104,7 @@ export const PROJECTS: Project[] = [
     status: 'Prototype Stage / Partner Outreach',
     vision: 'The future of automated retail in smart cities.',
     fullDescription: 'Advanced IoT-enabled vending capsules designed for 24/7 commerce. These smart units utilize AI for inventory management and user interaction, providing a seamless retail experience without human staffing.',
-    timeline: 'Commercial Capsules — 2025–2026',
+    timeline: 'Commercial Capsules — 2025–2026'
   },
   {
     id: 'skilloton',
@@ -114,7 +114,7 @@ export const PROJECTS: Project[] = [
     status: 'MVP Fixing & Feature Expansion',
     vision: 'Decentralizing service exchange with AI efficiency on TON.',
     fullDescription: 'A service marketplace built on the TON blockchain that leverages AI agents to automatically match user requests with the best service providers, eliminating manual search and negotiation friction.',
-    timeline: 'MVP v2 Release — Q1 2025',
+    timeline: 'MVP v2 Release — Q1 2025'
   },
   {
     id: '13players',
@@ -124,7 +124,7 @@ export const PROJECTS: Project[] = [
     status: 'Community Building Phase',
     vision: 'A gamified Web3 narrative bridging lore and digital identity.',
     fullDescription: 'An immersive multi-chain brand that combines storytelling, puzzle-solving, and memecoin culture. It creates a community-driven mystery where participation unlocks value and status within the ecosystem.',
-    timeline: 'Lore Phase 2 — 2025',
+    timeline: 'Lore Phase 2 — 2025'
   },
   {
     id: 'oracolure',
@@ -135,24 +135,59 @@ export const PROJECTS: Project[] = [
     isSecret: true,
     vision: 'Redefining the boundaries of digital interaction.',
     fullDescription: 'A stealth-mode project currently under strict NDA. Oracolure explores next-generation interfaces and predictive algorithms. Further details are classified.',
-    timeline: 'Stealth Mode — TBA',
-  },
+    timeline: 'Stealth Mode — TBA'
+  }
 ];
 
 export const EDUCATION: EducationItem[] = [
-  { id: 'boiko', institution: 'Boiko School, Kharkiv', location: 'Ukraine', status: 'Graduated' },
-  { id: 'python', institution: 'Python Programming Course', location: 'Remote Learning', status: 'Completed', details: 'Foundational programming, algorithms, scripting.' },
-  { id: 'cpp', institution: 'C++ Programming Course', location: 'Remote Learning', status: 'Completed', details: 'Object-oriented programming and system-level logic.' },
-  { id: 'ai', institution: 'AI Tools & Human–AI Interaction', location: 'Self-Directed', status: 'Continuous Learning', details: 'Exploration of modern AI systems, model prompting, and applied AI workflows.' },
-  { id: 'vwu', institution: 'VWU Studienkolleg', location: 'Vienna, Austria', status: 'Completed Modules', details: 'Preparation courses completed' },
-  { id: 'univie', institution: 'University of Vienna', location: 'Vienna, Austria', status: 'In Progress', details: 'International Business Administration' },
+  {
+    id: 'boiko',
+    institution: 'Boiko School, Kharkiv',
+    location: 'Ukraine',
+    status: 'Graduated'
+  },
+  {
+    id: 'python',
+    institution: 'Python Programming Course',
+    location: 'Remote Learning',
+    status: 'Completed',
+    details: 'Foundational programming, algorithms, scripting.'
+  },
+  {
+    id: 'cpp',
+    institution: 'C++ Programming Course',
+    location: 'Remote Learning',
+    status: 'Completed',
+    details: 'Object-oriented programming and system-level logic.'
+  },
+  {
+    id: 'ai',
+    institution: 'AI Tools & Human–AI Interaction',
+    location: 'Self-Directed',
+    status: 'Continuous Learning',
+    details: 'Exploration of modern AI systems, model prompting, and applied AI workflows.'
+  },
+  {
+    id: 'vwu',
+    institution: 'VWU Studienkolleg',
+    location: 'Vienna, Austria',
+    status: 'Completed Modules',
+    details: 'Preparation courses completed'
+  },
+  {
+    id: 'univie',
+    institution: 'University of Vienna',
+    location: 'Vienna, Austria',
+    status: 'In Progress',
+    details: 'International Business Administration'
+  }
 ];
 
 export const ROLES: Role[] = [
   { title: 'CEO', full: 'Chief Executive Officer' },
   { title: 'CTO', full: 'Chief Technology Officer' },
   { title: 'CIO', full: 'Chief Innovation Officer' },
-  { title: 'CPO', full: 'Chief Product Officer' },
+  { title: 'CPO', full: 'Chief Product Officer' }
 ];
 
 export const CAPABILITIES: Skill[] = [
@@ -163,8 +198,8 @@ export const CAPABILITIES: Skill[] = [
       'Cross-Platform Product Architecture',
       'Investor Narrative & Pitch Development',
       'Business Engineering',
-      'Tokenomics & Digital Economies',
-    ],
+      'Tokenomics & Digital Economies'
+    ]
   },
   {
     category: 'Technology Leadership',
@@ -173,8 +208,8 @@ export const CAPABILITIES: Skill[] = [
       'Blockchain Infrastructure (PoS, smart ecosystems)',
       'Autonomous Vehicles & Drone Systems',
       'IoT & Smart Retail Integration',
-      'Technical Roadmapping',
-    ],
+      'Technical Roadmapping'
+    ]
   },
   {
     category: 'Product & Experience Design',
@@ -182,8 +217,8 @@ export const CAPABILITIES: Skill[] = [
       'Experience Systems (UX/CX)',
       'Interface Architecture',
       'Visual Strategy',
-      'User-centric Flow Engineering',
-    ],
+      'User-centric Flow Engineering'
+    ]
   },
   {
     category: 'Innovation & R&D',
@@ -191,7 +226,7 @@ export const CAPABILITIES: Skill[] = [
       'Emerging Technology Research',
       'Human–AI Interaction',
       'Prototype Development',
-      'Scalability Modeling',
-    ],
-  },
+      'Scalability Modeling'
+    ]
+  }
 ];
